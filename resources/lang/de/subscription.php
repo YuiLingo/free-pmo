@@ -47,5 +47,6 @@ return [
         'domain'      => 'Domain',
         'hosting'     => 'Hosting',
         'maintenance' => 'Wartung',
+        'support'     => 'Support',
     ],
 ];

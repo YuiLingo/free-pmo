@@ -15,6 +15,7 @@ class Type extends ReferenceAbstract
         1 => 'domain',
         2 => 'hosting',
         3 => 'maintenance',
+        4 => 'support',
     ];
 
     /**
@@ -26,6 +27,7 @@ class Type extends ReferenceAbstract
         1 => '#337ab7',
         2 => '#4caf50',
         3 => '#00b3ff',
+        4 => '#00b3ff',
     ];
 
     /**

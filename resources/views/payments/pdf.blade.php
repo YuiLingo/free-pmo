@@ -50,7 +50,7 @@
             <tr style="vertical-align: top;">
                 <td>@lang('payment.words_amount') : </td>
                 <td colspan="2" style="border-bottom: 1px solid #ccc;height: 35px">
-                    {{ ucwords(Terbilang::make($payment->amount)) }} Rupiah
+                    {{ ucwords(Terbilang::make($payment->amount)) }} {{ Option::get('money_sign_in_word', 'Rupiah') }}
                 </td>
             </tr>
             <tr style="vertical-align: top;">
